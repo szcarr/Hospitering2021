@@ -1,0 +1,13 @@
+Knapp for Boot Device = F9
+Knapp for HP BIOS = F10
+Knapp for System Recovery = F11
+Knapp for "UEFI" menu = ESC
+
+Å gjere:
+laste ned ubuntu
+laste ned minecraft server
+spele minecraft
+
+Your name: mr trolling
+username: troller
+password: Vinter2021

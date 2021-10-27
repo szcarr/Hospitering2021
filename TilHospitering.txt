@@ -43,5 +43,7 @@ nano server.properties
 For å starte server?
 java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui
 
+cd  /home/troller/Server
+
 For å logge ut av server?
 CTRL + A + D

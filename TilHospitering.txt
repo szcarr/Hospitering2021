@@ -28,3 +28,6 @@ wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c63
 mv server.jar minecraft_server_1.15.2.jar
 
 screen
+java -Xms1024M -Xmx1024M -jar minecraft_server_1.15.2.jar nogui
+eula.txt //ÅPNE
+server.properties //ÅPNE

@@ -28,17 +28,18 @@ wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf2022619449
 mv server.jar minecraft_server_1.17.1.jar
 
 screen
-java -Xmx1024M -Xms1024M -jar minecraft_server.1.17.1.jar nogui
+java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui
 nano eula.txt
     eula = false -> eula = true
-nano server.properties
     
-  
 For å finne ip:
 ip a
 
+nano server.properties
+    
+
 For å starte server?
-java -Xms1024M -Xmx4G -jar minecraft_server_1.17.1.jar nogui
+java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui
 
 For å logge ut av server?
 CTRL + A + D

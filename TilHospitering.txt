@@ -29,14 +29,16 @@ mv server.jar minecraft_server_1.17.1.jar
 
 screen
 java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui
+
 nano eula.txt
     eula = false -> eula = true
     
 For å finne ip:
-ip a
-
-nano server.properties
+    ip a
+    vanligvis 192.168.1.XXX eller 192.168.1.XXX
     
+nano server.properties
+    server-ip: 192.168.1.XXX
 
 For å starte server?
 java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui

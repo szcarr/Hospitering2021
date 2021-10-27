@@ -14,7 +14,7 @@ username: troller
 password: Vinter2021
 
 Link:
-https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-20-04
 
 //MÅ VERE (KANSKJE) NY INSTALLERT LINUX. MÅ VERE CLEAN!!!!
 I Linux Terminal:
@@ -24,10 +24,21 @@ sudo apt install openjdk-16-jre-headless
 sudo apt install screen
 sudo ufw allow 25565
 
-wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
-mv server.jar minecraft_server_1.15.2.jar
+wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar
+mv server.jar minecraft_server_1.17.1.jar
 
 screen
-java -Xms1024M -Xmx1024M -jar minecraft_server_1.15.2.jar nogui
-eula.txt //ÅPNE
-server.properties //ÅPNE
+java -Xmx1024M -Xms1024M -jar minecraft_server.1.17.1.jar nogui
+nano eula.txt
+    eula = false -> eula = true
+nano server.properties
+    
+  
+For å finne ip:
+ip a
+
+For å starte server?
+java -Xms1024M -Xmx4G -jar minecraft_server_1.17.1.jar nogui
+
+For å logge ut av server?
+CTRL + A + D

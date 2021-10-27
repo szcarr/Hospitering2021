@@ -4,10 +4,27 @@ Knapp for System Recovery = F11
 Knapp for "UEFI" menu = ESC
 
 Å gjere:
-laste ned ubuntu
+laste ned ubuntu 
 laste ned minecraft server
 spele minecraft
 
-Your name: mr trolling
+Andre sin PC:
+Yourname: mr trolling
 username: troller
 password: Vinter2021
+
+Link:
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
+
+//MÅ VERE (KANSKJE) NY INSTALLERT LINUX. MÅ VERE CLEAN!!!!
+I Linux Terminal:
+sudo apt update
+sudo apt upgrade
+sudo apt install openjdk-16-jre-headless
+sudo apt install screen
+sudo ufw allow 25565
+
+wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+mv server.jar minecraft_server_1.15.2.jar
+
+screen

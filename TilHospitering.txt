@@ -1,49 +1,55 @@
-Knapp for Boot Device = F9
-Knapp for HP BIOS = F10
-Knapp for System Recovery = F11
-Knapp for "UEFI" menu = ESC
+Grunnleggande
+    Knappar
+        Knapp for Boot Device = F9
+        Knapp for HP BIOS = F10
+        Knapp for System Recovery = F11
+        Knapp for "UEFI" menu = ESC
 
-Å gjere:
-laste ned ubuntu 
-laste ned minecraft server
-spele minecraft
+    Å gjere:
+        laste ned ubuntu 
+        laste ned minecraft server
+        spele minecraft
 
-Andre sin PC:
-Yourname: mr trolling
-username: troller
-password: Vinter2021
+    Andre sin PC:
+        Yourname: mr trolling
+        username: troller
+        password: Vinter2021
 
-Link:
-https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-20-04
-
-//MÅ VERE (KANSKJE) NY INSTALLERT LINUX. MÅ VERE CLEAN!!!!
-I Linux Terminal:
-sudo apt update
-sudo apt upgrade
-sudo apt install openjdk-16-jre-headless
-sudo apt install screen
-sudo ufw allow 25565
-
-wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar
-mv server.jar minecraft_server_1.17.1.jar
-
-screen
-java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui
-
-nano eula.txt
-    eula = false -> eula = true
+Alt til å laste ned, sette opp og spele server
     
-For å finne ip:
-    ip a
-    vanligvis 192.168.1.XXX eller 192.168.1.XXX
-    
-nano server.properties
-    server-ip: 192.168.1.XXX
+    Link: (src)
+    https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-20-04
 
-For å starte server?
-java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui
+    //MÅ VERE (KANSKJE) NY INSTALLERT LINUX. MÅ VERE CLEAN!!!!
+    I Linux Terminal:
+        ´´´Bash
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install openjdk-16-jre-headless
+        sudo apt install screen
+        sudo ufw allow 25565
+        ´´´
+        wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar
+        mv server.jar minecraft_server_1.17.1.jar
+        screen
 
-cd  /home/troller/Server
+        For å starte server:
+            java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui
 
-For å logge ut av server?
-CTRL + A + D
+        nano eula.txt
+            eula = false -> eula = true
+
+        For å finne ip:
+            ip a
+            vanligvis 192.168.1.XXX
+
+        nano server.properties
+            server-ip: 192.168.1.XXX
+
+        For å starte server?
+            java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui
+
+        cd  /home/troller/Server
+
+        For å logge ut av server?
+            CTRL + A + D

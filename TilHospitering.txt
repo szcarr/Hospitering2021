@@ -36,15 +36,15 @@ Alt til å laste ned, sette opp og spele server
         For å starte server:
             java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui
 
-        nano eula.txt
+        gedit eula.txt
             eula = false -> eula = true
 
         For å finne ip:
             ip a
             vanligvis 192.168.1.XXX
 
-        nano server.properties
-            server-ip: 192.168.1.XXX
+        gedit server.properties
+            server-ip: -> server-ip: 192.168.1.XXX
 
         For å starte server?
             java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui

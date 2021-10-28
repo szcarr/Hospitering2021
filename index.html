@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" media="screen">
+        div.main {
+            margin: auto;
+        }
+        div.tekst, h2{
+            margin-left: 4%;
+        }
+        div.tekst, p{
+            margin-left: 8%;
+        }
+
+        div.tekst, 
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="tekst">
+        <h1>Grunnleggande</h1>
+            <h2>Knappar</h2>
+                <p>Knapp for Boot Device = F9</p>
+                <p>Knapp for HP BIOS = F10</p>
+                <p>Knapp for System Recovery = F11</p>
+                <p>Knapp for "UEFI" menu = ESC</p>
+                    
+            <h2>Å gjere:</h2>
+                <p>laste ned ubuntu</p>
+                <p>laste ned minecraft server</p>
+                <p>spele minecraft</p>
+            <h2>Andre sin PC:</h2>
+            <p>Yourname: mr trolling</p>
+            <p>username: troller</p>
+            <p>password: Vinter2021</p>
+        
+        <h1>Alt til å laste ned, sette opp og spele server</h1>
+            
+            <h2>Link: (src)</h2>
+            <p>https://www.digitalocean.com/community/tutorials/how-to-create-a-minecraft-server-on-ubuntu-20-04</p>
+        
+            <h2>MÅ VERE (KANSKJE) NY INSTALLERT LINUX. MÅ VERE CLEAN!!!!</h2>
+            <h2>I Linux Terminal:</h2>
+                <p>sudo apt update</p>
+                <p>sudo apt upgrade</p>
+                <p>sudo apt install openjdk-16-jre-headless</p>
+                <p>sudo apt install screen</p>
+                <p>sudo ufw allow 25565</p>
+
+                <p>wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar</p>
+                <p>mv server.jar minecraft_server_1.17.1.jar</p>
+                <p>screen</p>
+        
+                <h2>For å starte server:</h2>
+                    <p>java -Xmx1024M -Xms1024M -jar minecraft_server_1.17.1.jar nogui</p>
+        
+                <h2>gedit eula.txt</h2>
+                    <p>eula = false -> eula = true</p>
+        
+                <h2>For å finne ip:</h2>
+                    <p>ip a</p>
+                    <p>vanligvis 192.168.1.XXX</p>
+        
+                <h2>gedit server.properties</h2>
+                    <p>server-ip: -> server-ip: 192.168.1.XXX</p>
+        
+                <h2>For å starte server?</h2>
+                    <p>java -Xms1024M -Xmx1024M -jar minecraft_server_1.17.1.jar nogui</p>
+        
+                <h2>For å logge ut av server?</h2>
+                    <p>CTRL + A + D</p>
+            </div>
+    </div>
+</body>
+</html>

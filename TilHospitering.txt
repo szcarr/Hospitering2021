@@ -53,3 +53,7 @@ Alt til å laste ned, sette opp og spele server
 
         For å logge ut av server?
             CTRL + A + D
+
+For å installer minecraft på linux:
+    sudo apt install openjdk-16-jre-headless
+    wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar
